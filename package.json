@@ -1,10 +1,10 @@
 {
-  "name": "ReLauncher",
-  "version": "0.0.0",
-  "description": "CSCW 2016",
+  "name": "WebApp",
+  "version": "0.0.1",
+  "description": "Web Application for Microtask Runtime Controller",
   "author": "Pavel Kucherbaev <pavel@kucherbaev.com>",
   "license" : "MIT",
-  "repository": "https://github.com/ReLauncher/crowd-relauncher",
+  "repository": "https://github.com/ReLauncher/web-app",
   "dependencies": {
     "express": "^4.9.5",
     "bower":"1.4.1"
