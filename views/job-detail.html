@@ -1,0 +1,13 @@
+<div class='container'>
+    <div class="job {{current_job.state}}">
+        <h3>{{current_job.title}}</h3>
+        <h4>{{current_job.id}} / {{current_job.state}}</h4>
+        
+        <p>{{current_job.instructions}}</p>
+        <div>
+           <button ng-click="launchJob()">Enable relaunching for this job</button>
+           <br/><small>Please make sure the job is running. Extra costs may occur.</small>
+        </div>
+        <h4><a href="https://make.crowdflower.com/jobs/{{current_job.id}}" target="_blank">View this job on CrowdFlower</a></h4>
+    </div>
+</div>
