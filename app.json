@@ -1,0 +1,18 @@
+{
+  "name": "Web App",
+  "description": "Microtask runtime controller web application",
+  "repository": "https://github.com/relauncher/web-app",
+  "logo": "http://cliparts.co/cliparts/8cE/59B/8cE59BXca.png",
+  "keywords": ["express", "angularjs","crowdflower"],
+  "env": {
+    "BUILDPACK_URL": "https://github.com/ddollar/heroku-buildpack-multi.git",
+    "HEROKU_URL": {
+      "description": "The URL of this Heroku app.",
+      "value": "http://YOURAPPNAME.herokuapp.com"
+    },
+    "SERVER_SIDE_URL": {
+      "description": "Set up here URL of back-end",
+      "required": false
+    }
+  } 
+}
